@@ -9,5 +9,8 @@
     "mocha": "6.2.1"
   },
   "repository": "git@github.com:N1Anoobis/git-advance.git",
-  "author": "N1Anoobis <mrbond84@hotmail.com>"
+  "author": "N1Anoobis <mrbond84@hotmail.com>",
+  "scripts": {
+    "test": "mocha --watch \"./{,!(node_modules)/**/}*.test.js\""
+  }
 }
