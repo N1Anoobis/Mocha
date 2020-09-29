@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /home/bond/.yarn/bin/yarn.js init
+
+PATH: 
+  /home/bond/.yarn/bin:/home/bond/.config/yarn/global/node_modules/.bin:/opt/firefox/firefox:/home/bond/.local/share/umake/bin:/home/bond/.yarn/bin:/home/bond/.config/yarn/global/node_modules/.bin:/opt/firefox/firefox:/home/bond/.local/share/umake/bin:/opt/firefox/firefox:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  13.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/bond/.yarn/lib/cli.js:137009:13)
+      at Interface.emit (events.js:321:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:321:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:321:20)
+      at addChunk (_stream_readable.js:297:12)
+
+npm manifest: 
+  {
+    "name": "BooksApi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
